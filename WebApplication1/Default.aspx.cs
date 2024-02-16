@@ -4,6 +4,7 @@ using System.Web.UI;
 
 namespace WebApplication1
 {
+    // Carica gli articoli disponibili all'avvio della pagina
     public partial class _Default : Page
     {
         protected void Page_Load(object sender, EventArgs e)

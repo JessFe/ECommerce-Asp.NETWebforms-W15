@@ -15,15 +15,6 @@ namespace WebApplication1
     {
 
         /// <summary>
-        /// Controllo imgArticolo.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage imgArticolo;
-
-        /// <summary>
         /// Controllo lblNome.
         /// </summary>
         /// <remarks>
@@ -58,5 +49,14 @@ namespace WebApplication1
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnAggiungiCarrello;
+
+        /// <summary>
+        /// Controllo imgArticolo.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage imgArticolo;
     }
 }

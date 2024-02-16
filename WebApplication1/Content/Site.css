@@ -19,3 +19,39 @@ textarea {
         padding: 0;
     }
 }
+
+
+/* CSS Custom */
+
+main div.card img {
+    height: 175px;
+    object-fit: cover;
+}
+
+/* bottoni */
+.btn-outline-custom {
+    color: #777;
+    border: 2px solid #ffa41c;
+    background-image: linear-gradient(#ffa41c00, #ffa41c22);
+}
+
+.btn-outline-custom:hover {
+    background-image: linear-gradient(#ffa41c22, #ffa41caa);
+    border: 2px solid #ffa41c;
+}
+
+
+/* animazioni card */
+.image-container-flt img {
+    filter: sepia(70%) blur(1px) opacity(60%);
+    transition: filter 0.8s ease-in-out;
+}
+
+.image-container-flt:hover img {
+    filter: sepia(0%) blur(0px) opacity(100%);
+}
+
+.image-container-flt:hover {
+    box-shadow: 0 0 4px #ffa41c;
+    transition: box-shadow 1s ease-in-out;
+}
